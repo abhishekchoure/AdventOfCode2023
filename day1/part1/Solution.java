@@ -8,7 +8,7 @@ import java.util.List;
 public class Solution {
     public static void main(String[] argv) {
         Integer finalCaliberationValue = 0;
-        List<String> inputList = getInputAsList("./day1/input.txt");
+        List<String> inputList = getInputAsList("./day1/part1/input.txt");
         for (String inputString : inputList) {
             Integer caliberationValue = getCaliberationValue(inputString);
             finalCaliberationValue += caliberationValue;
