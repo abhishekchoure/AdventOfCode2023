@@ -11,7 +11,7 @@ public class Solution {
         Integer blueCubes = 14;
 
         try {
-            Scanner sc = new Scanner(new File("./day2/input.txt"));
+            Scanner sc = new Scanner(new File("./day2/part1/input.txt"));
             while(sc.hasNextLine()){
                 String game = sc.nextLine();
                 String[] tokens = game.split(":");
